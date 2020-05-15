@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link element tests matches the snaphot 1`] = `
+<styled.a
+  className="custom-link"
+  href="https://www.google.com"
+  target="_blank"
+  title="Google.com"
+>
+  Google.com
+</styled.a>
+`;

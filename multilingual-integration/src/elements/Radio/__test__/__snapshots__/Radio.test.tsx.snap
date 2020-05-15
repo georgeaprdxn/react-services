@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio element tests matches the snaphot 1`] = `
+<styled.div>
+  <styled.label
+    className="radio-label"
+    htmlFor="some-id"
+  >
+    <styled.input
+      checked={true}
+      className="radio-control"
+      id="some-id"
+      name="Some name"
+      onChange={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              Object {
+                "target": Object {
+                  "checked": true,
+                },
+              },
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      type="radio"
+    />
+    <span
+      className="checkmark"
+    />
+    Some title
+  </styled.label>
+</styled.div>
+`;

@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component tests matches the snaphot 1`] = `
+<Header
+  altText="React"
+  logo="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+  navigations={
+    Array [
+      Object {
+        "label": "First",
+        "url": "https://www.google.com",
+      },
+      Object {
+        "label": "Second",
+        "url": "https://www.google.com",
+      },
+      Object {
+        "label": "Third",
+        "url": "https://www.google.com",
+      },
+    ]
+  }
+  siteUrl="https://reactjs.org"
+>
+  <styled.header>
+    <header
+      className="sc-AxirZ ktnnZK"
+    >
+      <styled.h1>
+        <h1
+          className="sc-AxiKw bOTXee"
+        >
+          <styled.a
+            href="https://reactjs.org"
+          >
+            <a
+              className="sc-AxhCb ccMvAG"
+              href="https://reactjs.org"
+            >
+              <styled.img
+                alt="React"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+              >
+                <img
+                  alt="React"
+                  className="sc-AxhUy kMyssT"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                />
+              </styled.img>
+            </a>
+          </styled.a>
+        </h1>
+      </styled.h1>
+      <styled.nav>
+        <nav
+          className="sc-AxgMl fFPQpl"
+        >
+          <styled.ul>
+            <ul
+              className="sc-AxheI fniENP"
+            >
+              <styled.li
+                key="0"
+              >
+                <li
+                  className="sc-Axmtr hBVTto"
+                >
+                  <LinkComp
+                    label="First"
+                    target="_self"
+                    url="https://www.google.com"
+                  >
+                    <styled.a
+                      className="custom-link"
+                      href="https://www.google.com"
+                      target="_self"
+                      title="First"
+                    >
+                      <a
+                        className="sc-AxjAm StDqN custom-link"
+                        href="https://www.google.com"
+                        target="_self"
+                        title="First"
+                      >
+                        First
+                      </a>
+                    </styled.a>
+                  </LinkComp>
+                   
+                </li>
+              </styled.li>
+              <styled.li
+                key="1"
+              >
+                <li
+                  className="sc-Axmtr hBVTto"
+                >
+                  <LinkComp
+                    label="Second"
+                    target="_self"
+                    url="https://www.google.com"
+                  >
+                    <styled.a
+                      className="custom-link"
+                      href="https://www.google.com"
+                      target="_self"
+                      title="Second"
+                    >
+                      <a
+                        className="sc-AxjAm StDqN custom-link"
+                        href="https://www.google.com"
+                        target="_self"
+                        title="Second"
+                      >
+                        Second
+                      </a>
+                    </styled.a>
+                  </LinkComp>
+                   
+                </li>
+              </styled.li>
+              <styled.li
+                key="2"
+              >
+                <li
+                  className="sc-Axmtr hBVTto"
+                >
+                  <LinkComp
+                    label="Third"
+                    target="_self"
+                    url="https://www.google.com"
+                  >
+                    <styled.a
+                      className="custom-link"
+                      href="https://www.google.com"
+                      target="_self"
+                      title="Third"
+                    >
+                      <a
+                        className="sc-AxjAm StDqN custom-link"
+                        href="https://www.google.com"
+                        target="_self"
+                        title="Third"
+                      >
+                        Third
+                      </a>
+                    </styled.a>
+                  </LinkComp>
+                   
+                </li>
+              </styled.li>
+            </ul>
+          </styled.ul>
+        </nav>
+      </styled.nav>
+    </header>
+  </styled.header>
+</Header>
+`;

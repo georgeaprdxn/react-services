@@ -1,0 +1,25 @@
+{
+	"options": [
+		{
+			"label": "Apple",
+			"value": "apple"
+		},
+		{
+			"label": "Mango",
+			"value": "mango"
+		},
+		{
+			"label": "Pineapple",
+			"value": "pineapple"
+		},
+		{
+			"label": "Orange",
+			"value": "orange"
+		}
+	],
+	"selectedOption": {
+		"label": "Orange",
+		"value": "orange"
+	},
+	"isMulti": false
+}

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown element tests matches the snaphot 1`] = `
+<styled.div>
+  <StateManager
+    className="custom-select"
+    classNamePrefix="custom-select"
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    isMulti={false}
+    onChange={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "value": Object {
+                "label": "Orange",
+                "value": "orange",
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    options={
+      Array [
+        Object {
+          "label": "Apple",
+          "value": "apple",
+        },
+        Object {
+          "label": "Mango",
+          "value": "mango",
+        },
+        Object {
+          "label": "Pineapple",
+          "value": "pineapple",
+        },
+        Object {
+          "label": "Orange",
+          "value": "orange",
+        },
+      ]
+    }
+    value={
+      Object {
+        "label": "Orange",
+        "value": "orange",
+      }
+    }
+  />
+</styled.div>
+`;
