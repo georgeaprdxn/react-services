@@ -9,6 +9,7 @@ import Routes from 'router/Routes'
 import GlobalStyles from 'theme/GlobalStyles'
 import theme from 'theme'
 import * as serviceWorker from './serviceWorker'
+import './i18n'
 
 const appWithProvider = (
 	<Provider store={store}>

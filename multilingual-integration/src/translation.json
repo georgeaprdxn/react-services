@@ -1,0 +1,12 @@
+{
+    "en": {
+        "translations": {
+            "fetchDog": "Fetch Dog"
+        }
+    },
+    "de": {
+        "translations": {
+            "fetchDog": "Hund holen"
+        }
+    }
+}

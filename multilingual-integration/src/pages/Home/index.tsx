@@ -8,6 +8,7 @@ import { syncWithReducer } from 'utils/reducerUtil'
 import { fetchDog } from './duck/actions'
 import dogReducer from './duck/reducer'
 import epics from './duck/epics'
+import { useTranslation } from 'react-i18next'
 
 type Props = {
 	fetchDogAction: () => {}
@@ -22,9 +23,17 @@ const Home: React.FunctionComponent<Props> = ({
 	dog,
 	error,
 }) => {
+	const { t, i18n } = useTranslation()
+
+	const changeLanguage = (lng: string) => {
+		i18n.changeLanguage(lng)
+	}
+
 	return (
 		<div className="App">
-			<Button onClick={fetchDogAction} title="Fetch Dog" />
+			<Button onClick={() => changeLanguage('de')} title={'de'} />
+			<Button onClick={() => changeLanguage('en')} title={'en'} />
+			<Button onClick={fetchDogAction} title={t('fetchDog')} />
 			{dog && (
 				<>
 					{isLoading && <h1>Fetching data</h1>}
