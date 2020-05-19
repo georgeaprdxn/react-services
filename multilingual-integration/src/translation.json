@@ -1,12 +1,42 @@
 {
     "en": {
-        "translations": {
-            "fetchDog": "Fetch Dog"
+        "heading": {
+            "multiLanguage": "Multi-Language Example"
+        },
+        "content": {
+            "lifeQuote": "Life's good when it's lived for oneself; it's great when lived for others. The true means of happiness is to lose your mind by thinking for others! A good life is a collection of happy moments."
         }
     },
     "de": {
-        "translations": {
-            "fetchDog": "Hund holen"
+        "heading": {
+            "multiLanguage": "Mehrsprachiges Beispiel"
+        },
+        "content": {
+            "lifeQuote": "Das Leben ist gut, wenn es für sich selbst gelebt wird. Es ist großartig, wenn man für andere lebt. Das wahre Mittel des Glücks ist, den Verstand zu verlieren, indem man für andere denkt! Ein gutes Leben ist eine Sammlung glücklicher Momente."
+        }
+    },
+    "fr": {
+        "heading": {
+            "multiLanguage": "Exemple multilingue"
+        },
+        "content": {
+            "lifeQuote": "La vie est bonne quand elle est vécue pour soi; c'est génial quand on vit pour les autres. Le vrai moyen de bonheur est de perdre la tête en pensant aux autres! Une bonne vie est une collection de moments heureux."
+        }
+    },
+    "ie": {
+        "heading": {
+            "multiLanguage": "דוגמה רב-שפתית"
+        },
+        "content": {
+            "lifeQuote": " החיים טובים כשחיים בשביל עצמך; זה נהדר כשחיים עבור אחרים. האמצעי האמיתי לאושר הוא לאבד את דעתך על ידי מחשבה עבור אחרים! חיים טובים הם אוסף של רגעים שמחים."
+        }
+    },
+    "ko": {
+        "heading": {
+            "multiLanguage": "다국어 예"
+        },
+        "content": {
+            "lifeQuote": "삶은 자신을 위해 살 때 좋습니다. 다른 사람들을 위해 살 때 좋습니다. 진정한 행복의 수단은 다른 사람들을 생각함으로써 마음을 잃는 것입니다! 좋은 인생은 행복한 순간의 모음입니다."
         }
     }
 }

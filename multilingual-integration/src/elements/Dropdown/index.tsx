@@ -35,7 +35,7 @@ const Dropdown: FunctionComponent<Props> = ({
 	isMulti,
 }) => {
 	return (
-		<SelectContainer>
+		<SelectContainer className="custom-select-container">
 			<ReactSelect
 				value={selectedOption}
 				onChange={handleChange}

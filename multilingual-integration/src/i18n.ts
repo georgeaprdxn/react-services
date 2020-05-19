@@ -15,9 +15,8 @@ i18n
 		debug: true,
 
 		// have a common namespace used around the full app
-		ns: ['translations'],
-		defaultNS: 'translations',
-
+		ns: ['heading', 'content'],
+		defaultNS: 'heading',
 		keySeparator: false, // we use content as keys
 
 		interpolation: {
@@ -25,6 +24,17 @@ i18n
 		},
 		react: {
 			wait: true,
+		},
+		detection: {
+			order: [
+				'querystring',
+				'cookie',
+				'localStorage',
+				'navigator',
+				'htmlTag',
+				'path',
+				'subdomain',
+			],
 		},
 	})
 

@@ -9,6 +9,7 @@ import { fetchDog } from './duck/actions'
 import dogReducer from './duck/reducer'
 import epics from './duck/epics'
 import { useTranslation } from 'react-i18next'
+import MultiLanguage from '../../components/multiLanguage'
 
 type Props = {
 	fetchDogAction: () => {}
@@ -24,16 +25,25 @@ const Home: React.FunctionComponent<Props> = ({
 	error,
 }) => {
 	const { t, i18n } = useTranslation()
+	const [selectedOption, setSelected] = React.useState({
+		label: '',
+		value: i18n.language,
+	})
 
-	const changeLanguage = (lng: string) => {
-		i18n.changeLanguage(lng)
+	const changeLanguage = (selectedOption: { label: string; value: string }) => {
+		i18n.changeLanguage(selectedOption.value)
+		setSelected(selectedOption)
 	}
 
 	return (
 		<div className="App">
-			<Button onClick={() => changeLanguage('de')} title={'de'} />
-			<Button onClick={() => changeLanguage('en')} title={'en'} />
-			<Button onClick={fetchDogAction} title={t('fetchDog')} />
+			<MultiLanguage
+				selectedOption={selectedOption}
+				changeLanguage={changeLanguage}
+				heading={t('multiLanguage')}
+				content={t('content:lifeQuote')}
+			/>
+			<Button onClick={fetchDogAction} title={t('translations:fetchDog')} />
 			{dog && (
 				<>
 					{isLoading && <h1>Fetching data</h1>}
