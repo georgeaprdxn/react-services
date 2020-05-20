@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
+
 import { ThemeProvider } from 'styled-components'
 import 'reset-css'
 
-import store from 'store'
 import Routes from 'router/Routes'
 import GlobalStyles from 'theme/GlobalStyles'
 import theme from 'theme'
@@ -12,12 +11,10 @@ import * as serviceWorker from './serviceWorker'
 import './i18n'
 
 const appWithProvider = (
-	<Provider store={store}>
-		<ThemeProvider theme={theme}>
-			<GlobalStyles />
-			<Routes />
-		</ThemeProvider>
-	</Provider>
+	<ThemeProvider theme={theme}>
+		<GlobalStyles />
+		<Routes />
+	</ThemeProvider>
 )
 
 ReactDOM.render(appWithProvider, document.getElementById('root'))
